@@ -7,4 +7,44 @@
         android:layout_height="match_parent"
         tools:context=".SistemaDeAlquiler">
 
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            tools:layout_editor_absoluteY="25dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/etNombre"
+            android:hint="Nombre"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            tools:layout_editor_absoluteY="86dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/etContraseña"
+            android:hint="Contraseña"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="157dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/etCorreo"
+            android:hint="Correo"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            tools:layout_editor_absoluteY="220dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/etTelefono"
+            android:hint="Telefono"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="291dp" tools:layout_editor_absoluteX="15dp" android:id="@+id/etDireccion"
+            android:hint="Direccion"/>
+    <Button
+            android:text="Registar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="371dp"
+            tools:layout_editor_absoluteX="239dp" android:id="@+id/btnRegistrarReg"/>
 </android.support.constraint.ConstraintLayout>
