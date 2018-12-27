@@ -8,7 +8,7 @@ class SistemaDeAlquiler : AppCompatActivity() {
     lateinit var provedores:List<Provedor>
     lateinit var clientes:List<Cliente>
     //hola
-
+//hola
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sistema_de_alquiler)
